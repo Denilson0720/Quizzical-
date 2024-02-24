@@ -1,0 +1,199 @@
+*{
+    font-family: Inter;
+    box-sizing: border-box;
+}
+body{
+    padding:10px;
+    margin:0 auto;
+    align-self: center;
+}
+hr{
+    border-top: 1px solid #DBDEF0;
+    width:100%;
+    margin-top:2rem;
+}
+.root{
+    display:flex;
+    justify-content: center;
+}
+.main--container{
+    /* border:4px solid blue; */
+    padding:1rem;
+    display:flex;
+    justify-content: center;
+    width:100%;
+  
+
+
+}
+/* questions styling */
+.questions--component--container{
+    /* border:4px solid green; */
+    display:flex;
+    flex-direction: column;
+    padding:2em;
+    object-fit: contain;
+    text-align: center;
+    align-items: center;
+    /* width: 90%; */
+    max-width: 80em;
+}
+.questions--component>hr{
+    width:80%;
+    /* max-width:80em; */
+}
+.questions--component{
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    /* border:2px solid red; */
+    width:95%;
+    height:20rem;
+    /* background-color: rgb(172, 225, 147); */
+
+}
+.questions--prompt{
+    font-family: Karla;
+    /* color:#293264; */
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0em;
+}
+.questions--options{
+    display:flex;
+    /* width:80%; */
+    gap:2rem;
+    justify-content: center;
+    /* background-color: pink; */
+}
+.questions--options>button{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    color:#293264;
+    border:2px solid #4D5B9E;
+    padding:1rem 2rem;
+    width:50%;
+    margin:0.3rem 0;
+    border-radius: 2rem;
+    border:2px solid #293264;
+    background-color:white;
+}
+.questions--options--selected>button{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    color:#293264;
+    border:2px solid #4D5B9E;
+    padding:1rem 2rem;
+    border-radius: 2rem;
+    border:2px solid #293264;
+    width:55%;
+    background-color:#D6DBF5;;
+}
+.questions--options>button:hover {
+    background-color: #D6DBF5;
+    cursor:pointer;
+}
+/* .questions--options>button::selection{ */
+    /* background-color:#D6DBF5; */
+/* } */
+@media screen and (max-width:800px){
+    .questions--option--singular{
+        width:70%;
+    }
+    .questions--options{
+        flex-direction: column;
+        align-items: center;
+    }
+    .questions--component{
+        height:fit-content
+    }
+}
+@media screen and (min-width:801px) and (max-width:1200px){
+    .questions--option--singular{
+        /* background-color: green; */
+        padding:0.8rem 1rem;
+    }
+}
+
+
+
+
+.intro--container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height:100vh;
+    padding:2rem;
+
+}
+.intro--title{
+    color:#293264;
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: Karla;
+    line-height: 2.3rem;
+    letter-spacing: 0em;
+    text-align: center;
+    /* border:2px solid red; */
+}
+.intro--description{
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#293264;
+
+    /* border:2px solid red; */
+  }
+.startQuiz--button{
+    background-color: #4D5B9E;
+    height: 3.25rem;
+    width:12rem;
+    color:#F5F7FB;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 2rem;
+  }
+.submitQuiz--button{
+    background-color: #4D5B9E;
+    height: 3.25rem;
+    width:12rem;
+    color:#F5F7FB;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+.questions--quizScore{
+    color:#293264;
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: Karla;
+    line-height: 2.3rem;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* results styling */
+.results--container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1rem 0;
+}
+/* shape styling/animation */
+
