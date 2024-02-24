@@ -9,6 +9,8 @@
 - React.useEffect
 - Components
 - Conditional Rendering
+### Demo:
+https://main--quizzicaltriviapp.netlify.app/
 
 
 ### Features I plan to add:
