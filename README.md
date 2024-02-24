@@ -1,8 +1,19 @@
-# React + Vite
+# Quizzical Trivia App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Quizzical is a Trivia App that fetches data from the Open Trivia DB API and displays the questions as a quiz for the user to test their general knowledge.
 
-Currently, two official plugins are available:
+#### It is one of my first projects I took on to practice the new React concepts Ive been learning, which include:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.useState
+- React props
+- React.useEffect
+- Components
+- Conditional Rendering
+
+
+### Features I plan to add:
+- Allow user to choose questions category
+- Allow user to choose questions difficulty
+- Save user high score
+
+
